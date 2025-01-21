@@ -1,3 +1,13 @@
+
+## Important:
+Tested on Android 14 (SDK 34), where the issue of the photo album not launching was resolved.
+
+Please use version tag 0.0.40:
+
+ ionic cordova plugin add https://github.com/samugenesolutions/cordova-plugin-camera.git#0.0.40
+
+
+
 ---
 title: Camera
 description: Take pictures with the device camera.
@@ -34,6 +44,7 @@ Although the object is attached to the global scoped `navigator`, it is not avai
     function onDeviceReady() {
         console.log(navigator.camera);
     }
+
 
 
 ## Installation
